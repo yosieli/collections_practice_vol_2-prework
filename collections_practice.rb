@@ -1,5 +1,5 @@
 # your code goes here
-require "pry"
+#require "pry"
 def begins_with_r(array)
    array.all? do |word|
     word.downcase.chr == "r"
