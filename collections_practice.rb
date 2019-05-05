@@ -41,7 +41,6 @@ def organize_schools(schools)
 by_location = {}
     schools.each do |school, location_hash|
       location_hash.each do |symbol, location|
-        binding.pry
         if by_location[location] == nil
           by_location[location] = [school]
         else
